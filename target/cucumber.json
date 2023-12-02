@@ -1,0 +1,272 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-12-02T03:23:23.260Z",
+        "line": 14,
+        "name": "As a user, I want to login to Costco website using valid credentials",
+        "description": "",
+        "id": "login-testing-in-parabank-website;as-a-user--i-want-to-login-to-costco-website-using-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1481000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the browser",
+            "match": {
+              "location": "com.stepdef.StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "pass the URL \"https://parabank.parasoft.com/parabank/index.htm?ConnType\u003dJDBC\" to the homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://parabank.parasoft.com/parabank/index.htm?ConnType\u003dJDBC\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.stepdef.StepDef.pass_the_url_to_the_homepage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter email \"rezwan\" in the Email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rezwan\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_email_in_the_email_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter password \"Boston@2023\" in the Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Boston@2023\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_password_in_the_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on Sign In",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validate sign in is successful",
+            "match": {
+              "location": "com.stepdef.StepDef.validate_sign_in_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login testing in Parabank website",
+    "description": "Description: User should already have created an account",
+    "id": "login-testing-in-parabank-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/ParabankLogin.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User should be logged in first",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-12-02T03:23:23.293Z",
+        "line": 15,
+        "name": "As a user, I want to login to Costco website using valid credentials",
+        "description": "",
+        "id": "logout-testing-in-parabank-website;as-a-user--i-want-to-login-to-costco-website-using-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the browser",
+            "match": {
+              "location": "com.stepdef.StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "pass the URL \"https://parabank.parasoft.com/parabank/index.htm?ConnType\u003dJDBC\" to the homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://parabank.parasoft.com/parabank/index.htm?ConnType\u003dJDBC\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.stepdef.StepDef.pass_the_url_to_the_homepage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter email \"rezwan\" in the Email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rezwan\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_email_in_the_email_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1024100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter password \"Boston@2023\" in the Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Boston@2023\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_password_in_the_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on Sign In",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on Log Out",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_log_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "validate Logout is successful",
+            "match": {
+              "location": "com.stepdef.StepDef.validate_logout_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Logout testing in Parabank website",
+    "description": "Description: User should already have created an account",
+    "id": "logout-testing-in-parabank-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/ParabankLogout.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
